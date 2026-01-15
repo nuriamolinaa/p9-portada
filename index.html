@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendari 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Lexend Zetta", sans-serif;
+        }
+
+        .portada {
+            width: 210mm;
+            height: 148mm;
+            padding: 18mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   
+            align-items: center;       
+            text-align: center;
+        }
+
+        .titol {
+            font-size: 18mm;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+            margin-bottom: 14mm;
+        }
+
+        .mesos {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            gap: 8mm 10mm;
+        }
+
+        .mes {
+            font-size: 6mm;
+            font-weight: 600;
+            border: 0.8mm solid #000;
+            padding: 3mm 4mm;
+            text-align: center;
+            min-width: 22mm;
+        }
+
+        .footer {
+            margin-top: 14mm;
+            font-size: 4mm;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="portada">
+        <div class="titol">Calendari’26</div>
+
+        <div class="mesos">
+            <div class="mes">GEN</div>
+            <div class="mes">FEBR</div>
+            <div class="mes">MARÇ</div>
+            <div class="mes">ABR</div>
+
+            <div class="mes">MAIG</div>
+            <div class="mes">JUNY</div>
+            <div class="mes">JUN</div>
+            <div class="mes">AG</div>
+
+            <div class="mes">SET</div>
+            <div class="mes">OCT</div>
+            <div class="mes">NOV</div>
+            <div class="mes">DES</div>
+        </div>
+
+    </section>
+</body>
+</html>
